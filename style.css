@@ -18,7 +18,7 @@ body {
 
 /* seciton1 */
 section {
-    height: 100%;
+    min-height: 100%;
     width: 100%;
     position: relative;
 }
@@ -64,14 +64,14 @@ nav button {
 
 /* center */
 .center {
-    height: 70%;
+    min-height: 70%;
     width: 100%;
     padding: 50px 100px;
     display: flex;
 }
 
 .center-part1 {
-    height: 100%;
+    min-height: 100%;
     width: 40%;
 }
 
@@ -101,7 +101,7 @@ nav button {
 }
 
 .center-part2 {
-    height: 100%;
+    min-height: 100%;
     width: 55%;
     position: relative;
 }
