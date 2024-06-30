@@ -151,7 +151,7 @@ nav button {
 }
 
 .container {
-    height: 90%;
+    min-height: 90%;
     width: 100%;
     padding: 40px 100px;
     display: flex;
