@@ -13,6 +13,7 @@ html,
 body {
     height: 100%;
     width: 100%;
+    overflow-x: hidden;
 }
 
 /* seciton1 */
@@ -27,7 +28,7 @@ nav {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 60px 80px;
+    padding: 30px 100px;
 }
 
 .part2 {
@@ -63,26 +64,26 @@ nav button {
 
 /* center */
 .center {
-    height: 80%;
+    height: 70%;
     width: 100%;
-    padding: 80px;
+    padding: 50px 100px;
     display: flex;
 }
 
 .center-part1 {
     height: 100%;
-    width: 45%;
+    width: 40%;
 }
 
 .center-part1 h1 {
-    font-size: 80px;
+    font-size: 70px;
     line-height: 1.2;
     font-family: japan;
 }
 
 .center-part1 p {
     font-size: 30px;
-    margin-top: 50px;
+    margin-top: 40px;
     margin-bottom: 35px;
     /* width: 95%; */
 }
@@ -96,6 +97,7 @@ nav button {
     font-weight: 600;
     border: none;
     cursor: pointer;
+    margin-top: 36px;
 }
 
 .center-part2 {
@@ -109,4 +111,118 @@ nav button {
     height: 100%;
     position: absolute;
     right: 0;
+}
+
+/* section1 bottom */
+.section1bottom {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 60px 100px;
+}
+
+.section1bottom img {
+    height: 60px;
+}
+
+/* Services stles */
+.section2 .services {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 20px;
+    padding: 40px 100px;
+    margin-top: 30px;
+}
+
+.services h3 {
+    background: #B9FF66;
+    font-weight: 500;
+    padding: 5px 10px 3px 10px;
+    font-family: japan;
+    border-radius: 5px;
+    font-size: 60px;
+}
+
+.services p {
+    width: 40%;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.container {
+    height: 90%;
+    width: 100%;
+    padding: 40px 100px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    font: 50px;
+}
+
+.elem {
+    height: 350px;
+    width: 47%;
+    border: 3px solid black;
+    border-radius: 50px;
+    flex-shrink: 0;
+    box-shadow: 0px 10px 0px black;
+    padding: 50px;
+    display: flex;
+}
+
+.elem-part1 {
+    height: 100%;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+.elem-part1 h2 {
+    font-size: 32px;
+    background: #B9FF66;
+    font-weight: 500;
+    font-family: japan;
+    max-width: 80%;
+    padding: 0 5px;
+    border-radius: 10px;
+}
+
+.elem-part1 h4 {
+    display: flex;
+    align-items: center;
+    font-size: 30px;
+    font-weight: 500;
+    gap: 20px;
+}
+
+.black .elem-part1 h4 {
+    color: #fff;
+}
+.black .elem-part1 h4 i {
+    color: #000;
+    background-color: #fff;
+}
+
+.elem-part1 h4 i {
+    padding: 15px;
+    background: #000;
+    color: #fff;
+    border-radius: 50%;
+    font-weight: 900;
+}
+
+.elem-part2 {
+    height: 100%;
+    width: 50%;
+}
+
+.elem-part2 img {
+    height: 100%;
+}
+
+.black {
+    background: #000;
 }
